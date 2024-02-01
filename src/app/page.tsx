@@ -12,8 +12,8 @@ export default function Home() {
             src="/images/profile.jpeg"
             width={600}
             height={600}
-            priority
             style={{ maxWidth: "400px", maxHeight: "400px" }}
+            priority
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
