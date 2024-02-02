@@ -1,0 +1,11 @@
+[
+  {
+    "id": "green-jangteo",
+    "title": "그린장터 (협업)",
+    "description": "온라인 상에서 친환경 물품들을 사고 팔 수 있는 마켓플레이스 서비스",
+    "started": "2023-11-16",
+    "ended": "2024-01-04",
+    "image": "그린장터.png",
+    "tools": ["React", "Typescript", "Recoil", "Socket IO"]
+  }
+]

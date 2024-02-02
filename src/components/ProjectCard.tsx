@@ -3,19 +3,19 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface ProjectCardProps {
-  data: ProjectType;
+  project: ProjectType;
 }
 
-export default function ProjectCard({ data }: ProjectCardProps) {
-  const title = data.properties.name.title[0]?.plain_text;
-  // const github = data.properties.github.url;
-  const description = data.properties.description.rich_text[0]?.plain_text;
-  const tags = data.properties.tag.multi_select;
-  const started = data.properties.workPeriod.date?.start;
-  const ended = data.properties.workPeriod.date?.end;
+export default function ProjectCard({ project }: ProjectCardProps) {
+  // const title = project.properties.name.title[0]?.plain_text;
+  // // const github = project.properties.github.url;
+  // const description = project.properties.description.rich_text[0]?.plain_text;
+  // const tags = project.properties.tag.multi_select;
+  // const started = project.properties.workPeriod.date?.start;
+  // const ended = project.properties.workPeriod.date?.end;
 
   return (
-    <Link href={`projects/${title}`}>
+    <Link href={`/projects/${project.id}`}>
       <div
         className="flex flex-col m-3 rounded-xl w-full
     transition duration-300 transform border border-gray-300
@@ -34,20 +34,20 @@ export default function ProjectCard({ data }: ProjectCardProps) {
         />
 
         <div className="p-4 flex flex-col">
-          <h1 className="text-2xl font-bold">{title}</h1>
+          <h1 className="text-2xl font-bold">{project.title}</h1>
           <h3>
-            {started} ~ {ended}
+            {project.started} ~ {project.ended}
           </h3>
-          <h3 className="mt-4 text-xl">{description}</h3>
+          <h3 className="mt-4 text-xl">{project.description}</h3>
           {/* <a href={github}>깃허브 바로가기</a> */}
         </div>
         <div className="flex items-start m-2">
-          {tags.map((tag: { id: string; name: string }) => (
+          {project.tools.map((tool) => (
             <h1
               className="px-2 py-1 mr-2 rounded-md bg-sky-200 w-30"
-              key={tag.id}
+              key={tool}
             >
-              {tag.name}
+              {tool}
             </h1>
           ))}
         </div>
