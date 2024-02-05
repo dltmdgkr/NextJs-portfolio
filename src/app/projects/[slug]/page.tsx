@@ -1,3 +1,4 @@
+import Markdown from "@/components/Markdown";
 import { getMarkdownFile } from "@/service/markdown";
 
 interface ProjectDetailPageProps {
@@ -11,5 +12,9 @@ export default async function ProjectDetail({
 }: ProjectDetailPageProps) {
   const markdown = await getMarkdownFile(slug);
 
-  return <div>{markdown}</div>;
+  return (
+    <div>
+      <Markdown markdown={markdown} />
+    </div>
+  );
 }
