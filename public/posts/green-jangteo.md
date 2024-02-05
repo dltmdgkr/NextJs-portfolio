@@ -6,7 +6,7 @@
 
 - **시연 영상**: [그린장터](https://www.youtube.com/watch?v=B0uoIHAzfHo)
 
-- **개발로그 노션링크**: [트러블 슈팅 및 자세한 기능설명 포함](https://www.notion.so/62a72d202f394765ad3e0b9f504a35d3?pvs=4)
+- **개발로그 노션링크**: [트러블 슈팅 및 자세한 기능설명 포함](https://www.notion.so/a28cbf4c51cd45588e0e35269d58f2b6?pvs=4)
 
 ## **Overview**
 
@@ -43,6 +43,7 @@
 
 - [리프레시 토큰 적용](https://www.notion.so/Refresh-token-608f1680166d4738af5bb6a377d6bd6d?pvs=4)
 - [댓글 수정/삭제 실시간 반영](https://www.notion.so/d0f8b79ff3d54b4b96c852db2693aec1?pvs=4)
+- [로컬스토리지 데이터 처리 방식 문제](https://www.notion.so/91db8d79f66a4dd7b763961ed30b3bb1?pvs=4)
 
 ### 🛠 기술 스택
 
