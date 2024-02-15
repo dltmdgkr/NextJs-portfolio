@@ -25,7 +25,7 @@ export default function Markdown({ markdown }: MarkdownType) {
         ),
         p: ({ children }) => <p className={styles.paragraph}>{children}</p>,
         a: ({ children, href }) => (
-          <Link className={styles.link} href={href as string}>
+          <Link className={styles.link} href={href as string} target="_blank">
             {children}
           </Link>
         ),
