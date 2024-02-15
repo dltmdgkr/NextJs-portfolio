@@ -32,7 +32,9 @@ export default function Header() {
           <Link href="/projects" className="mr-5 hover:text-gray-900">
             Projects
           </Link>
-          <a className="mr-5 hover:text-gray-900">Contact</a>
+          <Link href="/contact" className="mr-5 hover:text-gray-900">
+            Contact
+          </Link>
         </nav>
         <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
           Button
