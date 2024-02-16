@@ -4,7 +4,9 @@
 
 - **GitHub**: [https://github.com/dltmdgkr/green-jangteo-frontend](https://github.com/dltmdgkr/green-jangteo-frontend)
 
-- **시연 영상**: [그린장터](https://www.youtube.com/watch?v=B0uoIHAzfHo)
+- **시연 영상**: [그린장터 데모데이 시연 영상](https://www.youtube.com/watch?v=B0uoIHAzfHo)
+
+- **배포 링크**: [https://green-jangteo.vercel.app](https://green-jangteo.vercel.app)
 
 - **개발로그 노션링크**: [트러블 슈팅 및 자세한 기능설명 포함](https://www.notion.so/a28cbf4c51cd45588e0e35269d58f2b6?pvs=4)
 
@@ -49,6 +51,7 @@
 - [Alert 컴포넌트화 작업](https://www.notion.so/Alert-0103624748d741d3b31d522be3a8400d?pvs=4)
 - [회원가입/로그인 시 AxiosError 처리](https://www.notion.so/AxiosError-23cb566039ce474caa206657f76118ad?pvs=4)
 - [Debounce를 활용한 입력 값의 지연 처리](https://www.notion.so/Debounce-4dcf14764602484a9cff0565af8886ea?pvs=4)
+- [Vercel Error](https://www.notion.so/Vercel-Error-862dd57bf1234651a9b65cecb952192d?pvs=4)
 
 ### 🛠 기술 스택
 

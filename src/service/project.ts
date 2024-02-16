@@ -7,7 +7,7 @@ export type ProjectType = {
   description: string;
   started: string;
   ended: string;
-  image?: string;
+  image: string;
   tools: string[];
 };
 

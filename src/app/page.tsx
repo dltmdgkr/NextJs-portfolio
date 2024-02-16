@@ -28,6 +28,7 @@ export default function Home() {
           <div>
             <Link
               href={"https://github.com/dltmdgkr"}
+              target="_blank"
               className="flex items-center gap-2 hover:underline"
             >
               <b>{"Gihub: "}</b>
@@ -35,6 +36,7 @@ export default function Home() {
             </Link>
             <Link
               href={"https://velog.io/@dltmdgkr"}
+              target="_blank"
               className="flex items-center gap-2 hover:underline"
             >
               <b>{"Blog: "}</b>

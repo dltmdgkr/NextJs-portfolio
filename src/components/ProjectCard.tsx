@@ -16,7 +16,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       >
         <Image
           className="rounded-t-xl"
-          src={"/images/그린장터.png"}
+          src={`/images/${project.image}`}
           alt="cover image"
           width={500}
           height={250}

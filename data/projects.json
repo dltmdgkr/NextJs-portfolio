@@ -7,5 +7,14 @@
     "ended": "2024-01-04",
     "image": "그린장터.png",
     "tools": ["React", "Typescript", "Recoil", "Socket IO"]
+  },
+  {
+    "id": "react-shop",
+    "title": "React-Shop (개인)",
+    "description": "React e-commercial 플랫폼",
+    "started": "2023-10-09",
+    "ended": "2023-10-16",
+    "image": "리액트샵.png",
+    "tools": ["React", "Typescript", "Recoil"]
   }
 ]
