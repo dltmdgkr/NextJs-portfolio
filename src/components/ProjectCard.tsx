@@ -1,19 +1,11 @@
 import { ProjectType } from "@/service/project";
 import Image from "next/image";
 import Link from "next/link";
-
 interface ProjectCardProps {
   project: ProjectType;
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {
-  // const title = project.properties.name.title[0]?.plain_text;
-  // // const github = project.properties.github.url;
-  // const description = project.properties.description.rich_text[0]?.plain_text;
-  // const tags = project.properties.tag.multi_select;
-  // const started = project.properties.workPeriod.date?.start;
-  // const ended = project.properties.workPeriod.date?.end;
-
   return (
     <Link href={`/projects/${project.id}`}>
       <div
@@ -39,7 +31,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             {project.started} ~ {project.ended}
           </h3>
           <h3 className="mt-4 text-xl">{project.description}</h3>
-          {/* <a href={github}>깃허브 바로가기</a> */}
         </div>
         <div className="flex items-start m-2">
           {project.tools.map((tool) => (

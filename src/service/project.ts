@@ -2,7 +2,6 @@ import path from "path";
 import { promises as fs } from "fs";
 
 export type ProjectType = {
-  // properties: any;
   id: string;
   title: string;
   description: string;
