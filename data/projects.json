@@ -15,6 +15,6 @@
     "started": "2023-10-09",
     "ended": "2023-10-16",
     "image": "리액트샵.png",
-    "tools": ["React", "Typescript", "Recoil"]
+    "tools": ["React", "Typescript", "Recoil", "React-Query"]
   }
 ]
