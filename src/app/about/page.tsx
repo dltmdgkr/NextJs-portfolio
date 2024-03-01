@@ -141,11 +141,24 @@ export default function AboutPage() {
           </ul>
           <br />
           <h3 className="text-[18px] font-semibold">
-            딥다이브 모던 자바스크립트 저자 이웅모 강사님 주관 북스터디
+            Deep Dive 자바스크립트 북스터디
           </h3>
           <p className="text-[14px] leading-4 text-slate-500 dark:text-slate-400">
             2023.08 ~ 2023.10
           </p>
+          <ul className="prose prose-neutral dark:prose-invert flex flex-col gap-1 text-neutral-800 dark:text-neutral-200">
+            <li className="flex">
+              <div className="mr-2">{"•"}</div>
+              <div>
+                모던 자바스크립트 딥다이브 저자{" "}
+                <b>이웅모 강사님 주관 북스터디</b> 참여
+              </div>
+            </li>
+            <li className="flex">
+              <div className="mr-2">{"•"}</div>
+              <div>자바스크립트의 기본 개념과 동작 원리를 학습</div>
+            </li>
+          </ul>
         </div>
         <div className="flex flex-col gap-3">
           <h2 className="font-serif text-[22px] font-bold text-black dark:text-white">
