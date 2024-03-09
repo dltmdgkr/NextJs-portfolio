@@ -1,3 +1,5 @@
+![리액트샵.png](/images/리액트샵.png)
+
 - **프로젝트 기간**: 2023.10.09 - 2023.10.16
 
 - **GitHub**: [https://github.com/dltmdgkr/ReactShop](https://github.com/dltmdgkr/ReactShop)
@@ -7,9 +9,13 @@
 ## **프로젝트 소개**
 
 - Vite + React + Typescript를 사용한 e-commercial 웹 사이트를 개발했습니다.
+
 - Fake Store API를 이용하여 상품정보를 JSON파일로 받아왔습니다.
+
 - Recoil을 상태관리 라이브러리로 사용하여 장바구니, 통합검색 등을 관리했습니다.
+
 - 테마 변경은 React 내부에서 사용되는 ContextAPI를 활용했습니다.
+
 - tailwindcss를 사용해 디자인과 사용자 UI를 구현했습니다.
 
 ## Project
