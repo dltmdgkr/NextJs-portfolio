@@ -1,17 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ImGithub } from "react-icons/im";
+import { SiVelog } from "react-icons/si";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 export default function Home() {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <div className="container mx-auto flex px-5 py-4 md:flex-row flex-col items-center md:py-24">
+        <div className="flex justify-center lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <Image
-            className="object-cover object-center rounded-full"
+            className="object-cover object-center md:rounded-full"
             alt="profile"
             src="/images/profile.jpeg"
-            width={600}
-            height={600}
+            width={400}
+            height={400}
+            layout="responsive"
             style={{ maxWidth: "400px", maxHeight: "400px" }}
             priority
           />
@@ -27,20 +31,30 @@ export default function Home() {
           </p>
           <div>
             <Link
-              href={"https://github.com/dltmdgkr"}
+              href="https://github.com/dltmdgkr"
               target="_blank"
-              className="flex items-center gap-2 hover:underline"
+              className="flex items-center gap-2 mb-4 hover:underline"
             >
-              <b>{"Gihub: "}</b>
+              <ImGithub />
+              <b>Gihub: </b>
               <span>{"https://github.com/dltmdgkr"}</span>
             </Link>
             <Link
-              href={"https://velog.io/@dltmdgkr"}
+              href="https://velog.io/@dltmdgkr"
               target="_blank"
+              className="flex items-center gap-2 mb-4 hover:underline"
+            >
+              <SiVelog />
+              <b>Blog: </b>
+              <span>{"https://velog.io/@dltmdgkr"}</span>
+            </Link>
+            <Link
+              href="/contact"
               className="flex items-center gap-2 hover:underline"
             >
-              <b>{"Blog: "}</b>
-              <span>{"https://velog.io/@dltmdgkr"}</span>
+              <MdOutlineMailOutline />
+              <b>Contact: </b>
+              <span>lseunghak1301@gmail.com</span>
             </Link>
           </div>
           <div className="flex justify-center mt-10">

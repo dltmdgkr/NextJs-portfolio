@@ -66,7 +66,7 @@
 - React-hook-form
 - Axios
 - Vercel
-- Socket IO
+- Socket.io
 
 **_Styles_**
 

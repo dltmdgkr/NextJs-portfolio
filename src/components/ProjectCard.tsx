@@ -14,32 +14,35 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     hover:scale-105
     hover:shadow-lg cursor-pointer"
       >
-        <Image
-          className="rounded-t-xl"
-          src={`/images/${project.image}`}
-          alt="cover image"
-          width={500}
-          height={250}
-          quality={100}
-          style={{ width: "auto", height: "auto" }}
-          priority
-        />
+        <div
+          className="relative"
+          style={{ flex: "1 0 auto", aspectRatio: "2 / 1" }}
+        >
+          <Image
+            className="rounded-t-xl"
+            src={`/images/${project.image}`}
+            alt="cover image"
+            layout="fill"
+            objectFit="cover"
+            priority
+          />
+        </div>
 
         <div className="p-4 flex flex-col">
           <h1 className="text-2xl font-bold">{project.title}</h1>
           <h3>
-            {project.started} ~ {project.ended}
+            {project.started} - {project.ended}
           </h3>
           <h3 className="mt-4 text-xl">{project.description}</h3>
         </div>
-        <div className="flex items-start m-2">
+        <div className="flex flex-wrap items-start m-4">
           {project.tools.map((tool) => (
-            <h1
-              className="px-2 py-1 mr-2 rounded-md bg-sky-200 w-30"
+            <span
+              className="px-2 py-1 mr-2 mb-2 rounded-md bg-sky-200"
               key={tool}
             >
               {tool}
-            </h1>
+            </span>
           ))}
         </div>
       </div>
