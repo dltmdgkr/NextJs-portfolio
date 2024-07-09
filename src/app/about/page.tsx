@@ -61,7 +61,7 @@ export default function AboutPage() {
             <li className="flex">
               <div className="mr-2">{"•"}</div>
               <div>
-                <div>Next.js</div>
+                <b>Next.js</b>
               </div>
             </li>
             <li className="flex">
@@ -122,7 +122,7 @@ export default function AboutPage() {
             제로베이스 프론트엔드 스쿨 16기
           </h3>
           <p className="text-[14px] leading-4 text-slate-500 dark:text-slate-400">
-            2023.06 ~ 2024.01
+            2023.06 - 2024.01
           </p>
           <ul className="prose prose-neutral dark:prose-invert flex flex-col gap-1 text-neutral-800 dark:text-neutral-200">
             <li className="flex">
@@ -144,7 +144,7 @@ export default function AboutPage() {
             Deep Dive 자바스크립트 북스터디
           </h3>
           <p className="text-[14px] leading-4 text-slate-500 dark:text-slate-400">
-            2023.08 ~ 2023.10
+            2023.08 - 2023.10
           </p>
           <ul className="prose prose-neutral dark:prose-invert flex flex-col gap-1 text-neutral-800 dark:text-neutral-200">
             <li className="flex">

@@ -10,7 +10,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     <Link href={`/projects/${project.id}`}>
       <div
         className="flex flex-col m-3 rounded-xl w-full
-    transition duration-300 transform border border-gray-300
+    transition transform border border-gray-300
     hover:scale-105
     hover:shadow-lg cursor-pointer"
       >

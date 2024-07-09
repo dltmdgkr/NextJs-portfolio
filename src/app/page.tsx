@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ImGithub } from "react-icons/im";
 import { SiVelog } from "react-icons/si";
 import { MdOutlineMailOutline } from "react-icons/md";
+import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -59,8 +60,9 @@ export default function Home() {
           </div>
           <div className="flex justify-center mt-10">
             <Link href="/projects">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                프로젝트 보러가기
+              <button className="inline-flex items-center text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <span>프로젝트 보러가기</span>
+                <MdOutlineKeyboardDoubleArrowRight className="ml-2" />
               </button>
             </Link>
           </div>
