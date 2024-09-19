@@ -1,7 +1,23 @@
 [
   {
+    "id": "shreads",
+    "title": "Shreads(슈레드) - 개인",
+    "description": "Next.js와 Supabase를 활용하여 사용자 간 소통과 상호작용을 중심으로 설계된 SNS 플랫폼",
+    "started": "2024.6",
+    "ended": "2024.8",
+    "image": "슈레드.png",
+    "tools": [
+      "Supabase",
+      "Next.js",
+      "Typescript",
+      "React Query",
+      "TailwindCSS",
+      "Zustand"
+    ]
+  },
+  {
     "id": "gachi-interview",
-    "title": "같이면접 (협업)",
+    "title": "같이면접 - 협업",
     "description": "당신을 위한 AI 모의 면접 서비스",
     "started": "2024.3.27",
     "ended": "2024.6.30",
@@ -21,7 +37,7 @@
   },
   {
     "id": "green-jangteo",
-    "title": "그린장터 (협업)",
+    "title": "그린장터 - 협업",
     "description": "온라인 상에서 친환경 물품들을 사고 팔 수 있는 마켓플레이스 서비스",
     "started": "2023.11.16",
     "ended": "2024.01.04",
@@ -42,7 +58,7 @@
   },
   {
     "id": "react-shop",
-    "title": "React-Shop (개인)",
+    "title": "React-Shop - 개인",
     "description": "React e-commercial 플랫폼",
     "started": "2023.10.09",
     "ended": "2023.10.16",
