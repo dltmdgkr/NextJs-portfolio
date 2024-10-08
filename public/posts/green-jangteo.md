@@ -2,7 +2,7 @@
 
 - **프로젝트 기간**: 2023.11.16 - 2024.01.04
 
-- **협업 인원**: 프론트엔드 2명, 백엔드 2명
+- **팀 구성**: FE 2명, BE 2명
 
 - **GitHub**: [https://github.com/dltmdgkr/green-jangteo-frontend](https://github.com/dltmdgkr/green-jangteo-frontend)
 

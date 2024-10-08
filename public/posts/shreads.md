@@ -1,4 +1,8 @@
-![슈레드.png](/images/슈레드.png)
+### Shreads(슈레드)**는**
+
+**Next.js**와 **Supabase**를 활용하여 사용자 간 소통과 상호작용을 중심으로 설계된 **SNS 플랫폼** 입니다.
+
+![슈레드.png](/images/shreads/슈레드.png)
 
 - **프로젝트 기간**: 2024.6 - 2024.8
 
@@ -8,31 +12,52 @@
 
 - **개발로그 노션링크**: [트러블 슈팅 및 자세한 기능설명 포함](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585)
 
-## **Overview**
-
-### Shreads(슈레드)**는**
-
-**Next.js와 Supabase를 활용하여 사용자 간 소통과 상호작용을 중심으로 설계된 SNS 플랫폼 입니다.**
-
 ## Project
 
-### 🔗 담당 개발 주요 기능
+### 🔗 주요 기능
 
 ---
 
-**주요 기능**
+- 회원가입 및 이메일 로그인
+  ![회원가입및이메일로그인.gif](/images/shreads/회원가입및이메일로그인.gif)
+- 이메일 인증 및 비밀번호 재설정
+  ![이메일인증및비밀번호재설정.gif](/images/shreads/이메일인증및비밀번호재설정.gif)
+- 카카오 및 깃허브 소셜 로그인
+  ![카카오및깃헙로그인.gif](/images/shreads/카카오및깃헙로그인.gif)
 
-- [사용자 인증 및 권한 관리](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=5df8f1b4ae0b470ca9bbf584fc819106&pm=c)
-- [게시물 작성 및 이미지 업로드](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=2fdd0bd4214740149c95f91860b31fc7&pm=c)
-- [댓글 및 좋아요 기능](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=4d49b7b6e8484e71b76bbcd640365785&pm=c)
-- [카카오톡 공유하기](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=41f8c35448bf4c48ae2c1d43b18f15cd&pm=c)
-- [팔로우 및 피드](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=e5b5851be1fc4ba299fad26841d3dac1&pm=c)
-- [사용자 탐색 및 검색 기능](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=97ad8b98bf6e49beaedf570797be5ece&pm=c)
-- [실시간 채팅](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=a9a419c2a0db4b35b3d6fd886e14e00a&pm=c)
-- [실시간 사용자 활동 상태 확인](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=100149f20ab280b2990dc30a9a279a55&pm=c)
-- [무한 스크롤](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=66dc0912ee1a4012a1d0dad46b280f69&pm=c)
+- 게시글 작성 및 이미지 업로드
+  ![게시글작성및이미지업로드.gif](/images/shreads/게시글작성및이미지업로드.gif)
+- 게시글 수정 및 삭제
+  ![게시글수정및삭제.gif](/images/shreads/게시글수정및삭제.gif)
+- 드래그 스크롤 및 이미지 상세 보기  
+  ![드래그스크롤및이미지상세보기.gif](/images/shreads/드래그스크롤및이미지상세보기.gif)
 
-**트러블슈팅 및 배운점**
+- 댓글 작성 및 좋아요  
+  ![댓글작성및좋아요.gif](/images/shreads/댓글작성및좋아요.gif)
+- 댓글 수정 및 삭제
+  ![댓글수정및삭제.gif](/images/shreads/댓글수정및삭제.gif)
+
+- 카카오톡 공유하기
+  ![카카오톡공유하기.gif](/images/shreads/카카오톡공유하기.gif)
+
+- 팔로우 및 피드
+  ![팔로우및피드.gif](/images/shreads/팔로우및피드.gif)
+
+- 사용자 탐색 및 검색
+  ![사용자탐색및검색.gif](/images/shreads/사용자탐색및검색.gif)
+
+- 실시간 채팅
+  ![실시간채팅.gif](/images/shreads/실시간채팅.gif)
+
+- 실시간 사용자 활동 상태 확인 (지금 활동 중)
+  ![지금활동중.gif](/images/shreads/지금활동중.gif)
+
+- 무한 스크롤 적용
+  ![무한스크롤.gif](/images/shreads/무한스크롤.gif)
+
+### 🎯 트러블 슈팅 및 배운점
+
+---
 
 - [UPDATE requires a WHERE clause](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=08ee21d92bc649afa20ba0100eea8137&pm=c)
 - [팔로워 데이터 로딩 및 상태 처리 개선](https://blossom-periwinkle-555.notion.site/Shreads-638cc8443ffd47abaf8f7cd631e24585?p=18d158799bd3470da031587ec6a919cd&pm=c)

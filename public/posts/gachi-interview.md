@@ -1,47 +1,64 @@
-![같이면접.png](/images/같이면접.png)
+### 같이면접**은**
+
+언제 어디서나 실전에 대비한 면접 연습을 할 수 있도록 **면접 준비를 위한 최고의 플랫폼** 입니다.
+
+- 🖥️ 당신을 위한 AI 모의 면접 서비스 🖥️
+
+- 🥜 효율적인 준비: 시간과 장소에 구애받지 않고 면접 준비가 가능합니다.
+
+- 🌱 개인 맞춤형 피드백: AI가 제공하는 맞춤형 피드백으로 면접 답변을 개선할 수 있습니다.
+
+- 🌷 커뮤니티와 함께: 다른 사용자와 피드백을 주고받으며 함께 성장할 수 있습니다.
+
+![같이면접.png](/images/같이면접/같이면접.png)
 
 - **프로젝트 기간**: 2024.03.27 - 2024.06.30
 
-- **협업 인원**: 프론트엔드 2명, 백엔드 2명
+- **팀 구성**: FE 2명, BE 2명
 
 - **GitHub**: [https://github.com/dltmdgkr/gachi-interview-FE](https://github.com/dltmdgkr/gachi-interview-FE)
 
 - **배포 링크**: [https://gachi-interview.vercel.app](https://gachi-interview.vercel.app)
 
-- **개발로그 노션링크**: [트러블 슈팅 및 자세한 기능설명 포함](https://blossom-periwinkle-555.notion.site/a28cbf4c51cd45588e0e35269d58f2b6)
-
-## **Overview**
-
-### 🖥️ 당신을 위한 AI 모의 면접 서비스 🖥️
-
-💭 모든 구직자들이 정보를 교환하고 피드백을 통해 성장할 수 있는 플랫폼을 제공한다면?
-
-### 같이면접**은**
-
-**면접 준비를 위한 최고의 플랫폼입니다. 언제 어디서나 실전에 대비한 면접 연습을 할 수 있도록 도와드립니다.**
-
-🥜 효율적인 준비: 시간과 장소에 구애받지 않고 면접 준비가 가능합니다.
-
-🌱 개인 맞춤형 피드백: AI가 제공하는 맞춤형 피드백으로 면접 답변을 개선할 수 있습니다.
-
-🌷 커뮤니티와 함께: 다른 사용자와 피드백을 주고받으며 함께 성장할 수 있습니다.
+- **개발로그 노션링크**: [트러블 슈팅 및 자세한 기능설명 포함](https://blossom-periwinkle-555.notion.site/63c47ce1750e405f8ecd7bf2bddcf194)
 
 ## Project
 
-### 🔗 담당 개발 주요 기능
+### 🔗 주요 기능
 
 ---
 
-**주요 기능**
+- 카카오 및 구글 소셜 로그인
+  ![사용자인증.gif](/images/같이면접/사용자인증.gif)
 
-- [Kakao OAuth 2.0, Google OAuth 2.0 소셜 로그인 및 JWT를 이용한 사용자 인증](https://blossom-periwinkle-555.notion.site/63c47ce1750e405f8ecd7bf2bddcf194?p=ee6b5d30b2c2461fbb34e35352478177&pm=c)
-- [면접 녹화 및 AI 피드백 기능](https://blossom-periwinkle-555.notion.site/63c47ce1750e405f8ecd7bf2bddcf194?p=5cd669b61a63452c9ee81eaee31643cc&pm=c)
-- [커뮤니티](https://blossom-periwinkle-555.notion.site/63c47ce1750e405f8ecd7bf2bddcf194?p=4e675280f0b44b6d882d8683d50ed24f&pm=c)
-- [실시간 알림 기능](https://blossom-periwinkle-555.notion.site/63c47ce1750e405f8ecd7bf2bddcf194?p=5a4f5d92303d414f9053222928731a71&pm=c)
-- [검색 및 필터 기능](https://blossom-periwinkle-555.notion.site/63c47ce1750e405f8ecd7bf2bddcf194?p=abac74e570094059947ef2e6ef39eee1&pm=c)
-- [반응형 UI](https://blossom-periwinkle-555.notion.site/63c47ce1750e405f8ecd7bf2bddcf194?p=bbb586b2841e4fea991c853279848d84&pm=c)
+- 질문 세트 생성 및 면접 영상 녹화
+  ![질문세트생성및면접영상녹화.gif](/images/같이면접/질문세트생성및면접영상녹화.gif)
+- 썸네일 선택 및 영상 다운로드 + 실시간 AI 피드백
+  ![썸네일선택및영상다운로드.gif](/images/같이면접/썸네일선택및영상다운로드.gif)
 
-**트러블슈팅 및 배운점**
+- 커뮤니티 - 게시글 생성
+  ![게시글생성.gif](/images/같이면접/게시글생성.gif)
+- 커뮤니티 - 게시글 수정 및 삭제
+  ![게시글수정및삭제.gif](/images/같이면접/게시글수정및삭제.gif)
+- 커뮤니티 - 댓글 수정 및 삭제 + 좋아요 및 공유하기
+  ![댓글수정삭제와좋아요및공유하기.gif](/images/같이면접/댓글수정삭제와좋아요및공유하기.gif)
+
+- 실시간 푸쉬 알림 - 백그라운드
+  ![실시간알림(백그라운드).gif](</images/같이면접/실시간알림(백그라운드).gif>)
+- 실시간 푸쉬 알림 - 포그라운드
+  ![실시간알림(포그라운드).gif](</images/같이면접/실시간알림(포그라운드).gif>)
+- 실시간 푸쉬 알림 - 모바일
+  ![실시간알림(모바일).png](</images/같이면접/실시간알림(모바일).png>)
+
+- 검색 및 필터 기능(최신순, 인기순)
+  ![검색및필터링기능.gif](/images/같이면접/검색및필터링기능.gif)
+
+- 반응형 UI - 태블릿 버전 및 모바일 버전
+  ![반응형(태블릿및모바일버전).png](</images/같이면접/반응형(태블릿및모바일버전).png>)
+
+### 🎯 트러블 슈팅 및 배운점
+
+---
 
 - [소셜 로그인 통합 후 발생한 FCM 및 댓글 작성 문제 해결 사례](https://blossom-periwinkle-555.notion.site/63c47ce1750e405f8ecd7bf2bddcf194?p=9f2f2e5f583944b894ad480c884dfd99&pm=c)
 - [Firebase Cloud Messaging 초기화 에러 해결: 클라이언트 환경 감지로 오류 방지](https://blossom-periwinkle-555.notion.site/63c47ce1750e405f8ecd7bf2bddcf194?p=40204c1aee58443c9970b8fde5ec7dd4&pm=c)

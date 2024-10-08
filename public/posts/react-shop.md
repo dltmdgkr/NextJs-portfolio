@@ -1,4 +1,4 @@
-![리액트샵.png](/images/리액트샵.png)
+![리액트샵.png](/images/리액트샵/리액트샵.png)
 
 - **프로젝트 기간**: 2023.10.09 - 2023.10.16
 
@@ -55,10 +55,10 @@
 - **react-query를 사용하면 데이터를 효율적으로 관리하고, 불필요한 네트워크 요청을 줄여주게 된다.**
 
 _react-query 활용 전, 모든 화면에 다시 들어가도 loading화면이 뜨고 느리고 답답하고 .._
-![before_react_query.gif](/images/before_react_query.gif)
+![before_react_query.gif](/images/리액트샵/before_react_query.gif)
 
 _react-query 활용 후, 이미 들어간 화면엔 loading을 다시 보여주지 않는다. 데이터를 캐싱하여 유저에게 훨씬 빠르게 화면을 보여준다._
-![after_react_query.gif](/images/after_react_query.gif)
+![after_react_query.gif](/images/리액트샵/after_react_query.gif)
 
 ---
 
@@ -68,7 +68,7 @@ _react-query 활용 후, 이미 들어간 화면엔 loading을 다시 보여주�
 - Custom Hook과 함께 get요청으로 모든 상품 페이지에 들어갈 때 마다 상품 데이터를 가져오는 api를 반복해서 호출했다.
 
   _수정 전_
-  ![loading.gif](/images/loading.gif)
+  ![loading.gif](/images/리액트샵/loading.gif)
 
 - 데이터를 가져오는데 로딩시간이 길어 화면을 렌더링하는데 시간이 오래걸리고 사용자 경험 측면에서 많이 아쉽다고 느꼈다.
 - 기능은 잘 작동하긴 하지만 성능면에서 많이 떨어진다고 느꼈다.
@@ -77,14 +77,14 @@ _react-query 활용 후, 이미 들어간 화면엔 loading을 다시 보여주�
 - **selector 는 기본적으로 캐싱 기능이 있어** 이미 들어왔던 적이 있는 값을 기억해서, 같은 응답을 보내는 api 호출은 추가적으로 요청하지 않는다. 따라서 성능상 유리하다.
 
 _셀렉터 생성_
-![selector](/images/selector.png)
+![selector](/images/리액트샵/selector.png)
 
 _selector get에서 비동기적으로 api를 호출해서 받아온 상품 데이터를 기반으로 고유의 id값을 이용해 각 상품 데이터를 필터링만 해준다._
 
-![ProductDetail](/images/ProductDetail.png)
+![ProductDetail](/images/리액트샵/ProductDetail.png)
 
 _수정 후_
-![no-loading.gif](/images/no-loading.gif)
+![no-loading.gif](/images/리액트샵/no-loading.gif)
 
 - 무분별한 api 호출을 줄이고 데이터를 캐싱하는 것을 확인할 수 있다.
 
@@ -96,7 +96,7 @@ _수정 후_
 
 - vercel을 통해 프로젝트를 배포한 후 다음과 같은 에러를 발견했다.
 
-  ![vercel_error.png](/images/vercel_error.png)
+  ![vercel_error.png](/images/리액트샵/vercel_error.png)
 
 - /cart 같은 하위 URL로 접근 했을 경우, vercel은 루트에서 하위 경로로 로드하지 못하기 때문에 해당 URL을 처리하는 방법을 모른다.
 
