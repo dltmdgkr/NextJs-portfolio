@@ -30,27 +30,40 @@
 
 ## Project
 
-### 🔗 담당 개발 주요 기능
+### 🔗 주요 기능 [☞ 전체 보기](https://blossom-periwinkle-555.notion.site/19e557f380944ce3bb4094ef9ef21d45?v=12301dfa1035412eb6080c20a98fa294)
 
 ---
 
-**본인이 기여한 부분**
+- **본인이 기여한 부분**
 
 - [💅 기획 및 전반적인 UI 디자인 (Figma)](https://www.figma.com/file/Hu5iyd9mCZgPDBEMtCqYP8/%EA%B7%B8%EB%A6%B0%EC%9E%A5%ED%84%B0?type=design&node-id=0-1&mode=design&t=9ouMKLJoRlAyGZ0Y-0)
+
 - [JWT를 이용한 사용자 인증](https://blossom-periwinkle-555.notion.site/d5a603a343f3467699ac1bc4df0154b3?pvs=25)
+
 - [상품 리뷰 등록 및 수정/삭제](https://blossom-periwinkle-555.notion.site/510d27b8fb994f0e8763fd4814be3737?pvs=25)
+
 - [커뮤니티(게시판)](https://blossom-periwinkle-555.notion.site/5ecf7e185c6348aebcee383028fd58b8?pvs=25)
+
 - [유저 간 실시간 채팅](https://blossom-periwinkle-555.notion.site/4255fec4d7914b4e899e0a9752ed1cac?pvs=25)
 
-**트러블슈팅 및 배운점**
+### 🎯 트러블 슈팅 및 배운점 [☞ 전체 보기](https://blossom-periwinkle-555.notion.site/4c9edfd0e0354a2da1cc9d54aa7a9357?v=beb487cb95624f0cb2f0381970f4aeb6)
+
+---
 
 - [리프레시 토큰 적용](https://blossom-periwinkle-555.notion.site/Refresh-token-608f1680166d4738af5bb6a377d6bd6d?pvs=25)
+
 - [댓글 수정/삭제 실시간 반영](https://blossom-periwinkle-555.notion.site/d0f8b79ff3d54b4b96c852db2693aec1?pvs=25)
+
 - [로컬스토리지 데이터 처리 방식 문제](https://blossom-periwinkle-555.notion.site/91db8d79f66a4dd7b763961ed30b3bb1?pvs=25)
+
 - [textarea로 입력받은 글 줄바꿈 적용](https://blossom-periwinkle-555.notion.site/textarea-e089ebcb204b4ac09d529880e6829e44?pvs=25)
+
 - [Alert 컴포넌트화 작업](https://blossom-periwinkle-555.notion.site/Alert-0103624748d741d3b31d522be3a8400d?pvs=25)
+
 - [회원가입/로그인 시 AxiosError 처리](https://blossom-periwinkle-555.notion.site/AxiosError-23cb566039ce474caa206657f76118ad?pvs=25)
+
 - [Debounce를 활용한 입력 값의 지연 처리](https://blossom-periwinkle-555.notion.site/Debounce-4dcf14764602484a9cff0565af8886ea?pvs=25)
+
 - [Vercel Error](https://blossom-periwinkle-555.notion.site/Vercel-Error-862dd57bf1234651a9b65cecb952192d?pvs=25)
 
 ### 🛠 기술 스택
