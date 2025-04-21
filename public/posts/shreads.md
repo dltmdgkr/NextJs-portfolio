@@ -1,10 +1,10 @@
-### Shreads(슈레드)**는**
+## Shreads(슈레드)**는**
 
 **Next.js**와 **Supabase**를 활용하여 사용자 간 소통과 상호작용을 중심으로 설계된 **SNS 플랫폼** 입니다.
 
 ![슈레드.png](/images/슈레드.png)
 
-- **프로젝트 기간**: 2024.6 - 2024.8
+- **프로젝트 기간**: 2024.07 - 2024.10
 
 - **GitHub**: [https://github.com/dltmdgkr/shreads](https://github.com/dltmdgkr/shreads)
 
@@ -60,7 +60,7 @@
 - **무한 스크롤 적용**
   ![무한스크롤.gif](/images/shreads/무한스크롤.gif)
 
-### 🎯 트러블 슈팅 및 배운점 [☞ 전체 보기](https://blossom-periwinkle-555.notion.site/cec3b7d64ad644d09bb399458bcb0cec?v=fff1c6597d68445da8c031b9eab84e0a)
+## 🎯 트러블 슈팅 및 배운점 [☞ 전체 보기](https://blossom-periwinkle-555.notion.site/cec3b7d64ad644d09bb399458bcb0cec?v=fff1c6597d68445da8c031b9eab84e0a)
 
 ---
 
@@ -78,7 +78,7 @@
 
 - [Storage에 올린 File의 URL 가져오기](https://blossom-periwinkle-555.notion.site/Storage-File-URL-de0bfa05163c4977b0ab3767e75ee9b0)
 
-### 🛠 기술 스택
+## 🛠 기술 스택
 
 ---
 

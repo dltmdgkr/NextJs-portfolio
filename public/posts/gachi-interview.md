@@ -1,4 +1,4 @@
-### 같이면접**은**
+## 같이면접**은**
 
 언제 어디서나 실전에 대비한 면접 연습을 할 수 있도록 **면접 준비를 위한 최고의 플랫폼** 입니다.
 
@@ -61,7 +61,7 @@
 - **반응형 UI - 태블릿 버전 및 모바일 버전**
   ![반응형(태블릿및모바일버전).png](</images/같이면접/반응형(태블릿및모바일버전).png>)
 
-### 🎯 트러블 슈팅 및 배운점 [☞ 전체 보기](https://blossom-periwinkle-555.notion.site/c41576f93fcd439b9fe8e0717dc90bbb?v=174ddbdec7e64f0b8459a83a9e8c2b5c)
+## 🎯 트러블 슈팅 및 배운점 [☞ 전체 보기](https://blossom-periwinkle-555.notion.site/c41576f93fcd439b9fe8e0717dc90bbb?v=174ddbdec7e64f0b8459a83a9e8c2b5c)
 
 ---
 
@@ -83,7 +83,7 @@
 
 - [[React-Query] setQueryData, invalidateQueries](https://blossom-periwinkle-555.notion.site/React-Query-setQueryData-invalidateQueries-25c859602f144bca9ba1fb0c0138246c)
 
-### 🛠 기술 스택
+## 🛠 기술 스택
 
 ---
 

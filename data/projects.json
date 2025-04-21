@@ -1,15 +1,39 @@
 [
   {
+    "id": "our-moments",
+    "title": "Our Moments - 개인",
+    "description": "현재 순간을 사진과 함께 지도 위에 기록하고 공유하는 디지털 앨범 서비스",
+    "started": "2025.01",
+    "ended": "2025.04",
+    "image": "OurMoments.png",
+    "tools": [
+      "React",
+      "TypeScript",
+      "React Hook Form",
+      "Styled Components",
+      "Framer Motion",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Kakao Maps API",
+      "AWS EC2/S3/CloudFront",
+      "Nginx",
+      "Certbot",
+      "GitHub Actions",
+      "PWA"
+    ]
+  },
+  {
     "id": "shreads",
     "title": "Shreads(슈레드) - 개인",
     "description": "Next.js와 Supabase를 활용하여 사용자 간 소통과 상호작용을 중심으로 설계된 SNS 플랫폼",
-    "started": "2024.6",
-    "ended": "2024.8",
+    "started": "2024.07",
+    "ended": "2024.10",
     "image": "슈레드.png",
     "tools": [
       "Supabase",
       "Next.js",
-      "Typescript",
+      "TypeScript",
       "React Query",
       "TailwindCSS",
       "Zustand"
@@ -24,7 +48,7 @@
     "image": "같이면접.png",
     "tools": [
       "Next.js",
-      "Typescript",
+      "TypeScript",
       "React Query",
       "TailwindCSS",
       "Shadcn/ui",
@@ -32,7 +56,7 @@
       "MSW",
       "FCM",
       "React Toastify",
-      "Github Actions"
+      "GitHub Actions"
     ]
   },
   {
@@ -44,7 +68,7 @@
     "image": "그린장터.png",
     "tools": [
       "React",
-      "Typescript",
+      "TypeScript",
       "Vite",
       "Recoil",
       "React Router",
@@ -63,6 +87,6 @@
     "started": "2023.10.09",
     "ended": "2023.10.16",
     "image": "리액트샵.png",
-    "tools": ["React", "Typescript", "Recoil", "React Query"]
+    "tools": ["React", "TypeScript", "Recoil", "React Query"]
   }
 ]
